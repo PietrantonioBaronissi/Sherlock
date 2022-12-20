@@ -1,0 +1,12 @@
+ROMANZI:
+	Uno studio in rosso (A Studi in Scarlet, 1887)
+	Il segno dei quattro (The Sign of Four, 1890)
+	Il mastino dei Baskerville (The Hound of the Baskervilles, 1902)
+	La valle della paura (The Valley of Fear, 1915)
+
+RACCOLTE DI RACONTI:
+	Le avventure di Sherlock Holmes (The Adventures of Sherlock Holmes, 1892), raccolta di 12 racconti
+	Le memorie di Sherlock Holmes (The Memoirs of Sherlock Holmes, 1894), raccolta di 11 racconti
+	Il ritorno di Sherlock Holmes (The Return of Sherlock Holmes, 1905), raccolta di 13 racconti
+	L'ultimo saluto (His Last Bow, 1917), raccolta di 8 racconti
+	Il taccuino di Sherlock Holmes (The Case-Book of Sherlock Holmes, 1927), raccolta di 12 racconti
