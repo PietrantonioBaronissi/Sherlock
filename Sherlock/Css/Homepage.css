@@ -96,12 +96,20 @@ body {
 
 .testogrigio
 {
-    color: #9fa1ad
+    color: #9fa1ad;
+    font-size: 120%;
+}
+
+.didascalia
+{
+    color: #9fa1ad;
+    font-size: 93%;
 }
 
 .testorosso
 {
-    color: red
+    color: red;
+    font-size: 190%;
 }
 
 
