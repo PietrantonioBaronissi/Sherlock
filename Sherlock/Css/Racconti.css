@@ -6,6 +6,11 @@
   --font-serif: "Cardo", serif;
 }
 
+.bodyprova {
+    display: grid;
+    place-items: center;
+    height: 100%;}
+
 * {
   box-sizing: border-box;
 }
@@ -197,3 +202,9 @@ body {
     transition-duration: 0s;
   }
 }
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+   }
+   
