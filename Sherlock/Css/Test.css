@@ -1,0 +1,28 @@
+.button {background-color: white;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.image {
+   
+    width: 60%;
+    height: 60%;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;}
+
+    body.page-template-single-book .header .book-info-wrap .book-title:after {
+        content: "";
+        display: block;
+        width: 250px;
+        height: 2px;
+        background-color: #495b66;
+        margin-top: 15px;
+    }    
+
+    .header3 {
+        color:#fff;    
+        margin-bottom:30px
+    }
