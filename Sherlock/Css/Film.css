@@ -139,7 +139,7 @@
 .copy {
   font-family: var(--font-serif);
   font-size: 1.125rem;
-  font-style: italic;
+  font-style: bold;
   line-height: 1.35;
 }
 
@@ -208,6 +208,10 @@
 }
 
 h1 {
- color: aliceblue;
+ color: white;
  text-align: center;
+}
+
+.ordine {
+  display: block;
 }
