@@ -115,6 +115,7 @@
 .card:nth-child(12):before {
   background-image: url(../Immagini/1990-4.jpg);
 }
+
 .content {
   position: relative;
   display: flex;

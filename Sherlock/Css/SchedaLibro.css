@@ -1,0 +1,21 @@
+.paragrafo {
+    text-align: left;
+    color: white;
+}
+
+.margine {
+    margin-bottom: 50px;
+}
+
+.nav-link {
+    color: brown;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+}
+
+.citazione {
+    font-style: italic;
+}
+
