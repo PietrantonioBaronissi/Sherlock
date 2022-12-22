@@ -80,16 +80,16 @@
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url(../Immagini/1920-1.jpg);
+  background-image: url(../Immagini/card1-serietv.jpg);
 }
 .card:nth-child(2):before {
-  background-image: url(../Immagini/1920-2.jpg);
+  background-image: url(../Immagini/card2-serietv.jpg);
 }
 .card:nth-child(3):before {
-  background-image: url(../Immagini/1920-3.jpg);
+  background-image: url(../Immagini/card3-serietv.jpg);
 }
 .card:nth-child(4):before {
-  background-image: url(../Immagini/1920-4.jpg);
+  background-image: url(../Immagini/card4-serietv.jpg);
 }
 .card:nth-child(5):before {
   background-image: url(../Immagini/1950-1.jpg);
@@ -115,6 +115,7 @@
 .card:nth-child(12):before {
   background-image: url(../Immagini/1990-4.jpg);
 }
+
 .content {
   position: relative;
   display: flex;
@@ -139,7 +140,7 @@
 .copy {
   font-family: var(--font-serif);
   font-size: 1.125rem;
-  font-style: italic;
+  font-style: bold;
   line-height: 1.35;
 }
 
@@ -208,6 +209,10 @@
 }
 
 h1 {
- color: aliceblue;
+ color: white;
  text-align: center;
+}
+
+.ordine {
+  display: block;
 }
