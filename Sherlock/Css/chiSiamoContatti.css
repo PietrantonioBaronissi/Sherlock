@@ -30,6 +30,10 @@ margin: 0 0 5% 0;
   height: 10%;
 }
 
+.margineCard {
+  margin-bottom: 10%;
+}
+
 /* Create two columns that float next to eachother */
 .column {
   float: left;
@@ -83,21 +87,31 @@ margin-left: 115px;
 margin-left: 115px;
 margin-right: 115px;
 }
+
+.margineFooter {
+  margin-top: 10%;
+}
 /* fine chi siamo*/
 
 
 /* margini cards novità*/
 #orizzontale {
-  margin-left: 100px ; 
-  margin-right: 260px;
+  margin-left: 10% ; 
+  margin-right: 20%;
 
   }
 
-  .paddingcarte {
+  .paddingcarte1 {
    
   margin-top: 50px;
   margin-bottom: 400px;
   }
+
+  .paddingcarte2 {
+   padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    }
 
   .paddingfooter {
     padding-top: 30px;
