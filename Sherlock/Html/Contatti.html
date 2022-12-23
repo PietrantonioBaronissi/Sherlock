@@ -11,15 +11,18 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="../Js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>   
     <link type="text/css" rel="stylesheet" href="../Css/Homepage.css">
-    <link type="text/css" rel="stylesheet" href="../Css/SerieTV.css">
+    <link type="text/css" rel="stylesheet" href="../Css/Cards.css">
+    <link type="text/css" rel="stylesheet" href="../Css/chiSiamoContatti.css">
+
+
 
     <!-- richiamo icone social dal web -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    <title>Serie TV</title>
+    <title>Contatti</title>
 </head>
 
-<body class="coloresfondo">
+
 
     <!-- HEADER -->
     <header id="myHeader">
@@ -65,9 +68,9 @@
                                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                                                 aria-expanded="false">Lista Opere</a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                <li><a class="dropdown-item" href="#">Libri</a></li>
+                                                <li><a class="dropdown-item" href="#">Film</a></li>
+                                                <li><a class="dropdown-item" href="#">Serie TV</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -81,54 +84,56 @@
                 </nav>
     </header>
 
-    <body id="sfondoBody">
+    <body class="coloresfondo" id="sfondoBody">
+
         <!-- Bootstrap Static Header -->
 <div style="background-image: url(../Immagini/backgroundlondon.jpeg)" class="jumbotron bg-cover text-white">
     <div class="container py-5 text-center">
-        <h1 class="display-5 font-weight-bold ">Serie TV ispirate dai racconti di Sir Arthur Conan Doyle</h1>
-        <p class="font-italic mb-0"></p>
+        <h1 class="display-5 font-weight-bold ">Sei un amante di Sherlock Holmes?</h1>
+        <p class="font-italic mb-0">Immergiti nel mondo del famigerato detective.</p>
             </a>
         </p>
+        <a href="#" role="button" class="btn btn-primary px-5">Scopri di più</a>
     </div>
 </div>
 
-<!--   CARDS   -->
-  <!-- Card da 1 a 4 -->
-<br>
-<h1>Serie TV ispirate dai racconti di Sir Arthur Conan Doyle</h1>
-<br>
-<main class="page-content bodyprova">
-    <div class="card">
-        <div class="content">
-        <h2>Sherlock Holmes (1964-1968)</h2>
-        <p class="copy">Sceneggiatura di Giles Cooper</p>
-        <button class="btn">Scopri di più</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2>Sherlock Holmes (1968)</h2>
-        <p class="copy">regia di Guglielmo Morandi</p>
-        <button class="btn">Scopri di più</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2>Sherlock (2010-2017)</h2>
-        <p class="copy">Regia di Paul McGuigan</p>
-        <button class="btn"><a class="colore-pulsante" href="../Html/Sherlock2010.html">Scopri di più</a></button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h3>Elementary (2012-2019)</h3>
-        <p class="copy">Regia di Michael Cuesta</p>
-        <button class="btn">Scopri di più</button>
-      </div>
-    </div>
-  </main>
 
-<br>
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="./home.html">Home</a></li>
+      <li class="breadcrumb-item active " aria-current="page">Contatti</li>
+    </ol>
+  </nav>
+  
+  <!--contattaci-->
+  <div class="container">
+    <div class="row">
+  
+      <div class="col-md-1 col-lg-1"></div>
+      <div class="col-12 col-sm-12 col-md-5 col-lg-5 margineContatti azzeraPadding"> 
+        <Ul class="allineamentocontatticontattaci list-unstyled" style="font-size: 130%;">
+          <li class="contatti"><b style="font-size: 150%;">CONTATTI:</b> </li>
+          <p> <li><b> SHERLOCK WORLD </b></li>
+         <p> 
+          <p><li><b>INDIRIZZO:</b> IV Novembre, 100, 04100 Latina LT</li>
+          <p> <li><img src="../immaginiContattiChiSiamo/iconatelefono.png" class="misuraImmagini"><span class="contatti fontsize"></span><b> TELEFONO:</b> 333777666</li>
+            <p> <li><img src="../immaginiContattiChiSiamo/iconastampa.png" class="misuraImmagini"></span><span class="contatti fontsize"></span><b> FAX:</b> 333555666</li>
+              <p><li><img src="../immaginiContattiChiSiamo/iconamail.png" class="misuraImmagini"></span><span class="contatti fontsize"></span><b> EMAIL:</b> mail@generation.com</li>
+                <p><li><img src="../immaginiContattiChiSiamo/iconaorologio.png" class="misuraImmagini"></span><span class="contatti fontsize"></span><b> ORARI:</b> lunedì-sabato: 09:00/13:00 - 15:00/19:00</li>
+                
+        </Ul>
+      </div>
+  
+  <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+      
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23923.34481317252!2d12.881100792368674!3d41.4518462950275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13250c7e8e1f04db%3A0xced9e95382d95ef7!2sDirettiva%20Viaggi%20S.R.L.!5e0!3m2!1sit!2sit!4v1665069899742!5m2!1sit!2sit" class="abbassaMappa" width="600" height="425" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+  </div>
+  
+  
+  <div class=" col-md-1 col-lg-1"></div>
+</div> 
+  </div>
+  </div>
 
   <!-- FOOTER -->
   <div class="container">
