@@ -87,16 +87,29 @@
 </header>
 
 <body class="coloresfondo" id="sfondoBody">
+
+    
+
     <!-- Bootstrap Static Header -->
     <div style="background-image: url(../Immagini/backgroundlondon.jpeg)" class="jumbotron bg-cover text-white">
         <div class="container py-5 text-center">
             <h1 class="display-5 font-weight-bold">Uno studio in rosso</h1>
-            <p class="font-italic mb-0 citazione">«Non c’è alcun ramo delle scienze investigative così poco praticato, eppure tanto importante, qual è l’arte d’interpretare le orme.» -Sherlock Holmes, Uno studio in rosso.</p>
+            <p class="font-italic mb-0 citazione"><strong>«Non c’è alcun ramo delle scienze investigative così poco praticato, eppure tanto importante, qual è l’arte d’interpretare le orme.» -Sherlock Holmes, Uno studio in rosso.</strong></p>
             </a>
             </p>
-            <a href="#" role="button" class="btn btn-primary px-5">Scopri di più</a>
         </div>
     </div>
+
+    <!-- BREADCRUMB -->
+    <div class="container text-center breadcrumb">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a class="a" href="../Html/Homepage.html">Home</a></li>
+            <li class="breadcrumb-item"><a class="a" href="../Html/Film.html">Libri</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Uno studio in rosso</li>
+          </ol>
+        </nav>
+      </div>
 
     <!-- Griglie per copertina e descrizione libro -->
     <div class="container text-center">
@@ -133,29 +146,21 @@
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">In biblioteca</button>
+                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Dettagli</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
-                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Luoghi menzionati</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane"
-                        type="button" role="tab" aria-controls="nonna-tab-pane" aria-selected="false">Disabled</button>
+                        type="button" role="tab" aria-controls="nonna-tab-pane" aria-selected="false">Disponibilità</button>
                 </li>
             </ul>
 
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
                     tabindex="0">
-                    <!-- <div class="row">
-                        <div class="col-6">
-                            <img src="../Immagini/1920-1.jpg" alt="">
-                        </div>
-                        <div class="col-6">
-                            <p>enwfuifbwebfyeff</p>
-                        </div>
-                    </div> -->
 
                     <p class="paragrafo">Conan Doyle scrisse il romanzo all'età di 27 anni in meno di tre
                         settimane. Come medico di malattia generale a Southsea (Portsmouth) aveva già pubblicato brevi
@@ -166,7 +171,23 @@
                         fu pubblicato per la prima volta come libro nel luglio 1888 sempre da Ward, Lock & Co., questa
                         volta con i disegni del padre dell'autore, Charles Doyle.</p>
                 </div>
+
+                <!-- -->
                 <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0">
+                    <p class="paragrafo">Uno studio in rosso (A Study in Scarlet) è il primo romanzo di Sir Arthur Conan Doyle sulle avventure del celebre detective Sherlock Holmes, pubblicato nel 1887.
+
+                    Il romanzo, che al suo esordio ebbe poco successo, apparve per la prima volta nell'edizione del 1887 della rivista Beeton's Christmas Annual insieme a storie di altri autori, mentre nel 1888 fu ripubblicato come libro autonomo. Si ritiene che siano sopravvissute solo undici copie della prima edizione del romanzo su Beeton's Christmas Annual, e tali copie hanno raggiunto un notevole valore nel mercato dei collezionisti. Fu il primo lavoro di narrativa poliziesca in cui compare la lente d'ingrandimento come strumento investigativo.
+
+                    Ha avuto trasposizioni cinematografiche e televisive.</p>
+                </div>
+
+                <!-- Luoghi nel racconto -->
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                    tabindex="0"><p class="paragrafo">221B, Baker St.</p></div>
+
+                <!-- Disponibilità -->
+                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
                     tabindex="0">
                     <ul>
                         <li><p class="paragrafo">Edizione disponibile in biblioteca: Uno studio in rosso, Feltrinelli. A cura di: Giancarlo Carlotti</p></li>
@@ -178,10 +199,6 @@
                         <li><p class="paragrafo">Dimensioni: 13 x 1.12 x 19.99 cm</p></li>
                     </ul>
                 </div>
-                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
-                    tabindex="0">...</div>
-                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
-                    tabindex="0">...</div>
             </div>
 
 
