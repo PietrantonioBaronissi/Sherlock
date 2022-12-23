@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- COLLEGAMENTO BOOTSTRAP E CSS -->
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="../Js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>   
+    <link type="text/css" rel="stylesheet" href="../Css/Homepage.css">
+    <link type="text/css" rel="stylesheet" href="../Css/Cards.css">
+    <link type="text/css" rel="stylesheet" href="../Css/Test.css">
+    <script src="../Js/test.js"></script>
+
+
+
+    <!-- richiamo icone social dal web -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <title>Homepage</title>
+</head>
+
+
+
+    <!-- HEADER -->
+    <header id="myHeader">
+        <div class="container"></div>
+        <div id="sfondoLogo" class="row">
+
+            <div class="col-4 col-md-5"> </div>
+
+            <div class="col-4 col-md-2">
+                <img src="../Immagini/SherlockWorld.svg" class="bg-cover" alt="Sherlock World">
+            </div>
+
+            <div class="col-4 col-md-5"> </div>
+
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+                        <div class="container-fluid">
+
+                            <a class="navbar-brand" href="#"></a>
+                            <button class="navbar-toggler center" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarsExample05" aria-controls="navbarsExample05"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="col-2"></div>
+
+                            <div class="col-8 center">
+                                <div class="collapse navbar-collapse" id="navbarsExample05">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Informazioni
+                                                Biblioteca</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Il Personaggio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link disabled">Galleria Immagini</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                                aria-expanded="false">Lista Opere</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-2"></div>
+                            </div>
+                        </div>
+
+                </div>
+                </nav>
+    </header>
+
+                <div id="descrizione" style="display:none;">film descrizione </div>
+            </br>
+                <div id="attori" style="display:none;">attori descrizione</div>
+            </br>
+                <div id="regista" style="display:none;">regista descrizione</div>
+
+
+                <a href="javascript:;" onClick="document.getElementById('descrizione').style.display='block';">descrizione appare</a>
+
+                <a href="javascript:;" onClick="document.getElementById('descrizione').style.display='none';">descrizione scompare</a>
+            </br>
+
+                <a href="javascript:;" onClick="document.getElementById('attori').style.display='block';">attori appare</a>
+
+                <a href="javascript:;" onClick="document.getElementById('attori').style.display='none';">attori scompare</a>
+</br>
+
+                <a href="javascript:;" onClick="document.getElementById('regista').style.display='block';">regista appare</a>
+
+                <a href="javascript:;" onClick="document.getElementById('regista').style.display='none';">regista scompare</a>
+
+</br>
+
+                <input type="button" value="Open application form" onClick="document.getElementById('hideaway').style.display='block';">
+
+                <a href="javascript:;" onClick="document.getElementById('hideaway').innerHTML='new html goes here';">Update the HTML</a>
+
+
+
+</br>
+
+                <a href="javascript:;" onClick="document.getElementById('descrizione').style.display='block';" onClick="document.getElementById('attori',).style.display='none';">descrizione appare</a>
+</br>
+                <a href="javascript:;" onClick="document.getElementById('attori').style.display='block';" onClick="document.getElementById('descrizione',).style.display='none';">attori appare</a>
+
+            </br>
+                <input type="button" value="Open application form" onClick="document.getElementById('descrizione').style.display='block';">
+
+
+            </br>
+
+                  <p id='demo' style='display: none'>Hello Javascript</p>   
+                </br>  
+                  <button type='button' onclick="toggleText()">Click me</button>
+
+
+        </body>

@@ -113,19 +113,17 @@ body {
 .testogrigio
 {
     color: #9fa1ad;
-    font-size: 120%;
 }
 
 .didascalia
 {
     color: #9fa1ad;
-    font-size: 93%;
+    font-size: 15px;
 }
 
 .testorosso
 {
     color: red;
-    font-size: 190%;
 }
 
 
