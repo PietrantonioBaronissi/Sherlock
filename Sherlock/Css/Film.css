@@ -211,3 +211,17 @@ h1 {
  color: aliceblue;
  text-align: center;
 }
+
+.a {
+  color: white !important;
+}
+
+.breadcrumb {
+  margin-top: 10px;
+}
+
+.colore-pulsante {
+  text-decoration: none !important;
+  color: white !important;
+}
+

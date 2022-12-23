@@ -6,115 +6,218 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- COLLEGAMENTO BOOTSTRAP E CSS -->
-    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="../Js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>   
-    <link type="text/css" rel="stylesheet" href="../Css/Homepage.css">
-    <link type="text/css" rel="stylesheet" href="../Css/FilmSingolo.css">
-    
+    <link type="text/css" rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
 
 
+    <link rel="stylesheet" href="../Css/Homepage.css">
+    <link rel="stylesheet" href="../Css/SchedaLibro.css">
 
     <!-- richiamo icone social dal web -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    <title>SherlockHolmes1992</title>
+    <title>Sherlock Holmes (1922),</title>
 </head>
 
-<body class="coloresfondo">
+<!-- HEADER -->
+<header id="myHeader">
+    <div class="container"></div>
+    <div id="sfondoLogo" class="row">
 
-    <!-- HEADER -->
-    <header id="myHeader">
-        <div class="container"></div>
-        <div id="sfondoLogo" class="row">
+        <div class="col-4 col-md-5"> </div>
 
-            <div class="col-4 col-md-5"> </div>
+        <div class="col-4 col-md-2">
+            <img src="../Immagini/SherlockWorld.svg" class="bg-cover" alt="Sherlock World">
+        </div>
 
-            <div class="col-4 col-md-2">
-                <img src="../Immagini/SherlockWorld.svg" class="bg-cover" alt="Sherlock World">
+        <div class="col-4 col-md-5"> </div>
+
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+                    <div class="container-fluid">
+
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler center" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="col-2"></div>
+
+                        <div class="col-8 center">
+                            <div class="collapse navbar-collapse" id="navbarsExample05">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Informazioni
+                                            Biblioteca</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Il Personaggio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled">Galleria Immagini</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                            aria-expanded="false">Lista Opere</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                    </div>
+
+            </div>
+            </nav>
+</header>
+
+<body class="coloresfondo" id="sfondoBody">
+
+
+
+    <!-- Bootstrap Static Header -->
+    <div style="background-image: url(../Immagini/backgroundlondon.jpeg)" class="jumbotron bg-cover text-white">
+        <div class="container py-5 text-center">
+            <h1 class="display-5 font-weight-bold">Sherlock Holmes (1922),</h1>
+            <p class="font-italic mb-0 citazione"><strong>«È un errore enorme teorizzare a vuoto. Senza accorgersene, si comincia a deformare i fatti per adattarli alle teorie, anziché il viceversa.» - Sherlock Holmes (1922).</strong></p>
+            </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- BREADCRUMB -->
+    <div class="container text-center breadcrumb">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="a" href="../Html/Homepage.html">Home</a></li>
+                <li class="breadcrumb-item"><a class="a" href="../Html/Film.html">Film</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Sherlock Holmes (1922)</li>
+            </ol>
+        </nav>
+    </div>
+
+    <!-- Griglie per copertina e descrizione libro -->
+    <div class="container text-center">
+        <div class="row margine">
+            <div class="col-2"></div>
+            <div class="col-4"><img src="../Immagini/1920-1.jpg" alt=""></div>
+            <div class="col-4">
+                <p class="paragrafo">Sherlock Holmes è un film del 1922 diretto da Albert Parker. Fu il film d'esordio
+                    di Roland Young e di William Powell.
+                    John Barrymore e Roland Young
+                    Basato sulla commedia Sherlock Holmes di William Gillette andata in scena a New York il 6 novembre
+                    1899 e sui personaggi creati da Sir Arthur Conan Doyle.
+                    Ritenuto perduto per decenni, è stato riscoperto a metà degli anni '70 e restaurato dalla George
+                    Eastman House. Un giovane Sherlock Holmes si trova fronte a fronte con l'acerrimo nemico, il professor Moriarty, mentre cerca di risolvere un crimine che coinvolge un principe ricattato, studente di Cambridge.
+                    Alla morte, in un incidente stradale, dei suoi due fratelli maggiori, il principe Alexis di Arenberg viene ad essere l'erede al trono: la Ragion di Stato esige che il suo fidanzamento con Rose Faulkner, una non-nobile, venga rescisso. A seguito di ciò Rose si toglie la vita. Coloro che sono a conoscenza della situazione non possono non incolpare il principe per la sua condotta: prima fra tutti Alice, la sorella della deceduta. Ella intende vendicare la figura della sorella suicida col consegnare alla stampa le lettere d'amore di Alexis a Rose, esponendo in tal modo il principe alla pubblica riprovazione.</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+    <!-- Griglia per schede sottostanti-->
+    <div class="container text-center">
+        <div class="row">
+
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Maggiori
+                        informazioni</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                        type="button" role="tab" aria-controls="profile-tab-pane"
+                        aria-selected="false">Dettagli</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Luoghi
+                        menzionati</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane"
+                        type="button" role="tab" aria-controls="nonna-tab-pane"
+                        aria-selected="false">Disponibilità</button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
+
+                    <p class="paragrafo">Il proiezionista di un cinema sogna di diventare un detective. L'occasione di
+                        mettere in pratica le sue qualità si presenta quando un suo rivale in amore lo fa accusare di
+                        avere rubato l'orologio del padre della donna contesa. L'aspirante investigatore mette in atto i
+                        consigli del suo manuale seppur con scarsi risultati. Afflitto dai suoi fallimenti torna al suo
+                        lavoro e durante una proiezione si addormenta sognando di essere il grande detective "Sherlock
+                        Jr" e di risolvere un caso di furto di una collana di perle. Si risveglierà all'arrivo della sua
+                        amata che dopo aver scoperto il complotto ordito dall'altro pretendente, lo scagionerà da ogni
+                        accusa riguardo al furto dell'orologio. </p>
+                </div>
+
+                <!-- -->
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0">
+                    <p class="paragrafo">All'inizio delle riprese del film, Buster Keaton propose al produttore Lou
+                        Anger di affidare la regia al vecchio amico e collega Roscoe Arbuckle, che da qualche anno non
+                        lavorava più a causa di accuse di omicidio (anche se poi verrà assolto). Anger accettò l'idea,
+                        decidendo di camuffare il suo nome in "Will B. Goodrich" (un nome simile alla frase "will be
+                        good", ovvero "sarà bravo"). L'esperimento, però, si rivelerà un fallimento. Arbuckle era
+                        irritabile, impaziente e trattava male tutti. Keaton e Anger, anche grazie all'aiuto
+                        dell'attrice e amica Marion Davies, riescono a convincere il produttore William Randolph Hearst
+                        di scegliere Arbuckle come regista per il film The Red Mill.</p>
+                </div>
+
+                <!-- Luoghi nel racconto -->
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                    tabindex="0">
+                    <p class="paragrafo">221B, Baker St.</p>
+                </div>
+
+                <!-- Disponibilità -->
+                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
+                    tabindex="0">
+                    <ul>
+                        <li>
+                            <p class="paragrafo">Sherlock Holmes (1922), regia di: Albert Parker</p>
+                        </li>
+
+                        <li>
+                            <p class="paragrafo">Data di pubblicazione: 17 ottobre 1922</p>
+                        </li>
+
+                        <li>
+                            <p class="paragrafo">Durata: 92 min</p>
+                        </li>
+
+                        <li>
+                            <p class="paragrafo">ISBN-10: 880768678N</p>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
 
-            <div class="col-4 col-md-5"> </div>
 
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
-                        <div class="container-fluid">
-
-                            <a class="navbar-brand" href="#"></a>
-                            <button class="navbar-toggler center" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarsExample05" aria-controls="navbarsExample05"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-
-                            <div class="col-2"></div>
-
-                            <div class="col-8 center">
-                                <div class="collapse navbar-collapse" id="navbarsExample05">
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">Informazioni
-                                                Biblioteca</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Il Personaggio</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link disabled">Galleria Immagini</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                                                aria-expanded="false">Lista Opere</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                                <div class="col-2"></div>
-                            </div>
-                        </div>
-
-                </div>
-                </nav>
-    </header>
-
-    <body id="sfondoBody">
-        <!-- Bootstrap Static Header -->
-<div style="background-image: url(../Immagini/backgroundlondon.jpeg)" class="jumbotron bg-cover text-white">
-    <div class="container py-5 text-center">
-        <h1 class="display-5 font-weight-bold ">Sherlock Holmes 1922</h1>
-        <p class="font-italic mb-0"></p>
-            </a>
-        </p>
-        <a href="#" role="button" class="btn btn-primary px-5">Scopri di più</a>
+        </div>
     </div>
-</div>
-
-
-
-
-
-<ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link active descrizione" aria-current="page" href="#descrizione">Descrizione</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#autore">Autore</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#dettagli">Dettagli</a>
-    </li>
-  </ul>
-
-  <a name="descrizione"><h1>Descrizione del libro</h1></a>
-  <a name="autore"><h1>Autore</h1></a>
-  <a name="dettagli"><h1>Dettagli di Sherlock Holmes</h1></a>
- 
 </body>
+
 </html>
