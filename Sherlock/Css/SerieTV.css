@@ -216,3 +216,8 @@ h1 {
 .ordine {
   display: block;
 }
+
+.colore-pulsante {
+  text-decoration: none !important;
+  color: white !important;
+}

@@ -24,75 +24,52 @@
 
     <!-- HEADER -->
     <header id="myHeader">
-        <div class="container"></div>
-        <div id="sfondoLogo" class="row">
 
-            <div class="col-4 col-md-5"> </div>
-
-            <div class="col-4 col-md-2">
-                <img src="../Immagini/SherlockWorld.svg" class="bg-cover" alt="Sherlock World">
-            </div>
-
-            <div class="col-4 col-md-5"> </div>
-
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
-                        <div class="container-fluid">
-
-                            <a class="navbar-brand" href="#"></a>
-                            <button class="navbar-toggler center" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarsExample05" aria-controls="navbarsExample05"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-
-                            <div class="col-2"></div>
-
-                            <div class="col-8 center">
-                                <div class="collapse navbar-collapse" id="navbarsExample05">
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">Informazioni
-                                                Biblioteca</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Il Personaggio</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link disabled">Galleria Immagini</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                                                aria-expanded="false">Lista Opere</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Libri</a></li>
-                                                <li><a class="dropdown-item" href="#">Film</a></li>
-                                                <li><a class="dropdown-item" href="#">Serie TV</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                                <div class="col-2"></div>
-                            </div>
-                        </div>
+        <nav class="nav">
+            <div class="container-fluid">
+                <div class="logo fixed-left">
+                    <a href="#"><img src="../Immagini/SherlockWorld.svg" alt="" height="50px" ></a>
 
                 </div>
-                </nav>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks navfont">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Film</a></li>
+                        <li><a href="#">Serie TV</a></li>
+                        <li><a href="#">Libri</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+    
+        <section class="home">
+        </section>
+       
+    
+    <!-- Jquery needed -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+    
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+        <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+                
     </header>
 
-    <body class="coloresfondo" id="sfondoBody">
-        <!-- Bootstrap Static Header -->
-<div style="background-image: url(../Immagini/backgroundlondon.jpeg)" class="jumbotron bg-cover text-white">
-    <div class="container py-5 text-center">
-        <h1 class="display-5 font-weight-bold ">Sei un amante di Sherlock Holmes?</h1>
-        <p class="font-italic mb-0">Immergiti nel mondo del famigerato detective.</p>
-            </a>
-        </p>
-        <a href="#" role="button" class="btn btn-primary px-5">Scopri di più</a>
-    </div>
-</div>
+
 
 
 
@@ -199,11 +176,11 @@
         <footer class="col-12 format text-center text-white border">
 
             <!-- Sezione dei Link -->
-            <div class="container">
+            <div class="container ">
 
                 <div class="row">
 
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-4">
 
                         <!-- "margine" distanzia i link l'uno dall'altro 
                             "footerLink" formattazione dei link nel footer-->
@@ -212,49 +189,29 @@
                                 <a href="#!" class="text-white">Chi siamo</a>
                             </li>
                             <li class="margine">
-                                <a href="#!" class="text-white">Lavora con noi</a>
-                            </li>
-                            <li class="margine">
-                                <a href="#!" class="text-white">Preferenze</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-12 col-md-3">
-
-                        <ul class="FooterLink list-unstyled mb-0">
-                            <li class="margine">
                                 <a href="#!" class="text-white">Domande frequenti</a>
                             </li>
-                            <li class="margine">
-                                <a href="#!" class="text-white">Termini e condizioni</a>
-                            </li>
-                            <li class="margine">
-                                <a href="#!" class="text-white">Contattaci</a>
-                            </li>
-
-                        </ul>
+                         
                     </div>
 
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-4">
 
                         <ul class="FooterLink list-unstyled mb-0">
                             <li class="margine">
-                                <a href="#!" class="text-white">Area legale</a>
+                                <a href="#!" class="text-white">Note legali</a>
                             </li>
                             <li class="margine">
-                                <a href="#!" class="text-white">Privacy</a>
+                                <a href="#!" class="text-white">Privacy e cookies</a>
                             </li>
-                            <li class="margine">
-                                <a href="#!" class="text-white">Cookies</a>
-                            </li>
-
+                            
                         </ul>
                     </div>
 
+                    
+
                     <!-- Logo-->
-                    <div class="col-12 col-md-3">
-                        <img src="../Immagini/pngegg.png" class="img-fluid" alt="...">
+                    <div class="col-12 col-md-4">
+                        <img src="../Immagini/SherlockWorld.svg" class="" height="80px" alt="...">
                     </div>
                 </div>
             </div>
