@@ -8,14 +8,22 @@
 }
 
 .nav-link {
-    color: brown;
+    color: white;
 }
 
 .nav-link:hover {
-    color: yellow !important;
+    color: white;
 }
 
 .citazione {
     font-style: italic;
+    margin-top: 50px;
 }
 
+.a {
+    color: white !important;
+}
+
+.breadcrumb {
+    margin-top: 10px;
+}
