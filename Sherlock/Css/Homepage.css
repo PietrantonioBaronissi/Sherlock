@@ -13,6 +13,11 @@
     font-weight: 600;
 }
 
+.indexz {
+    z-index: 1;
+}
+
+
 /* Pietro distanza link footer */
 .margine {
     padding-bottom: 30px;
@@ -151,7 +156,7 @@ p{
 	
 
     p{
-            font-size: 6px;
+            font-size: 50% !important; 
         }
     }
     
@@ -159,7 +164,7 @@ p{
     
         @media screen and (min-width: 300px) and (max-width: 600px) {
         h4 {
-            font-size: 10px;
+            font-size: 50%;
         }
     }
 
@@ -566,7 +571,7 @@ p{
 
 .affix {
     padding: 0;
-    background-color: #111;
+    background-color: #10141b;
 }
 
 
