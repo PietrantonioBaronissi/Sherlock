@@ -209,10 +209,12 @@ a:focus {
 
 .profile-card-2:hover img {
     filter: grayscale(100%);
+    
 }
 
 .profile-card-2:hover .profile-name {
     bottom: 80px;
+    color:red;
 }
 
 .profile-card-2:hover .profile-username {
