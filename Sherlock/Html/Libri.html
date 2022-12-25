@@ -11,12 +11,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="../Js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>   
     <link type="text/css" rel="stylesheet" href="../Css/Homepage.css">
-    <link type="text/css" rel="stylesheet" href="../Css/SerieTV.css">
-
+    <link type="text/css" rel="stylesheet" href="../Css/Libri.css">
+    
     <!-- richiamo icone social dal web -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    <title>Serie TV</title>
+    <title>Libri</title>
 </head>
 
 <body class="coloresfondo">
@@ -24,86 +24,127 @@
     <!-- HEADER -->
     <header id="myHeader ">
 
-        <nav class="nav indexz">
-            <div class="container-fluid">
-                <div class="logo fixed-left">
-                    <a href="#"><img src="../Immagini/SherlockWorld.svg" alt="" height="50px" ></a>
+      <nav class="nav indexz">
+          <div class="container-fluid">
+              <div class="logo fixed-left">
+                  <a href="#"><img src="../Immagini/SherlockWorld.svg" alt="" height="50px" ></a>
 
-                </div>
-                <div id="mainListDiv" class="main_list">
-                    <ul class="navlinks navfont">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="Libri.html">Libri</a></li>
-                        <li><a href="Film.html">Film</a></li>
-                        <li><a href="SerieTV.html">Serie TV</a></li>
-                    </ul>
-                </div>
-                <span class="navTrigger">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
-            </div>
-        </nav>
-    
-        <section class="home">
-        </section>
-       
-    
-    <!-- Jquery needed -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="js/scripts.js"></script>
-    
-    <!-- Function used to shrink nav bar removing paddings and adding black background -->
-        <script>
-            $(window).scroll(function() {
-                if ($(document).scrollTop() > 50) {
-                    $('.nav').addClass('affix');
-                    console.log("OK");
-                } else {
-                    $('.nav').removeClass('affix');
-                }
-            });
-        </script>
-                
-    </header>
+              </div>
+              <div id="mainListDiv" class="main_list">
+                  <ul class="navlinks navfont">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="Libri.html">Libri</a></li>
+                      <li><a href="Film.html">Film</a></li>
+                      <li><a href="SerieTV.html">Serie TV</a></li>
+                  </ul>
+              </div>
+              <span class="navTrigger">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+              </span>
+          </div>
+      </nav>
+  
+      <section class="home">
+      </section>
+     
+  
+  <!-- Jquery needed -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/scripts.js"></script>
+  
+  <!-- Function used to shrink nav bar removing paddings and adding black background -->
+      <script>
+          $(window).scroll(function() {
+              if ($(document).scrollTop() > 50) {
+                  $('.nav').addClass('affix');
+                  console.log("OK");
+              } else {
+                  $('.nav').removeClass('affix');
+              }
+          });
+      </script>
+              
+  </header>
 
     <body id="sfondoBody">
 
-<!--   CARDS   -->
-  <!-- Card da 1 a 4 -->
+ <!-- BREADCRUMB -->
+ <div class="container text-center breadcrumb">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a class="a" href="../Html/Homepage.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Film</li>
+    </ol>
+  </nav>
+</div>
+
+<!--   BODY   -->
+<!-- Card da 1 a 4 -->
 <br>
-<h1>Serie TV ispirate dai racconti di Sir Arthur Conan Doyle</h1>
+<h1>I Romanzi e le raccolte del nostro Detective preferito</h1>
 <br>
 <main class="page-content bodyprova">
     <div class="card">
         <div class="content">
-        <h2>Sherlock Holmes (1964-1968)</h2>
-        <p class="copy">Sceneggiatura di Giles Cooper</p>
-        <button class="btn">Scopri di più</button>
+        <h2>Uno studio in rosso</h2>
+        <p class="copy">Romanzo (1887)</p>
+        <button class="btn"> <a class="colore-pulsante" href="../Html/SherlockHolmes1922.html"> Scopri di più </a></button>
       </div>
     </div>
     <div class="card">
       <div class="content">
-        <h2>Sherlock Holmes (1968)</h2>
-        <p class="copy">regia di Guglielmo Morandi</p>
-        <button class="btn">Scopri di più</button>
+        <h2>Il segno dei quattro</h2>
+        <p class="copy">Romanzo (1890)</p>
+        <button class="btn"> <a class="colore-pulsante" href="../Html/LaPallaN°13.html"> Scopri di più </a></button>
       </div>
     </div>
     <div class="card">
       <div class="content">
-        <h2>Sherlock (2010-2017)</h2>
-        <p class="copy">Regia di Paul McGuigan</p>
-        <button class="btn"><a class="colore-pulsante" href="../Html/Sherlock2010.html">Scopri di più</a></button>
+        <h2>Il mastino dei Baskerville</h2>
+        <p class="copy">Romanzo (1902)</p>
+        <button class="btn"> <a class="colore-pulsante" href="../Html/IlRitornoDiSherlockHolmes.html"> Scopri di più </a></button>
       </div>
     </div>
     <div class="card">
       <div class="content">
-        <h3>Elementary (2012-2019)</h3>
-        <p class="copy">Regia di Michael Cuesta</p>
-        <button class="btn">Scopri di più</button>
+        <h2>La valle della paura</h2>
+        <p class="copy">Romanzo (1915)</p>
+        <button class="btn"> <a class="colore-pulsante" href="../Html/IlRitornoDiSherlockHolmes.html"> Scopri di più </a></button>
       </div>
     </div>
+
+    <!-- Card da 5 a 8 -->
+    <div class="card">
+      <div class="content">
+        <h2>Le avventure di Sherlock Holmes</h2>
+        <p class="copy">Raccolta di racconti (1892)</p>
+        <button class="btn"> <a class="colore-pulsante" href="../Html/IlRitornoDiSherlockHolmes.html"> Scopri di più </a></button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2>Le memorie di Sherlock Holmes</h2>
+        <p class="copy">Raccolta di racconti (1893)</p>
+        <button class="btn"> <a class="colore-pulsante" href="../Html/IlRitornoDiSherlockHolmes.html"> Scopri di più </a></button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2>L´ultimo saluto di Sherlock Holmes</h2>
+        <p class="copy">Raccolta di racconti (1917)</p>
+        <button class="btn"> <a class="colore-pulsante" href="../Html/IlRitornoDiSherlockHolmes.html"> Scopri di più </a></button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2>Il taccuino di Sherlock Holmes</h2>
+        <p class="copy">Raccolta di racconti (1927)</p>
+        <button class="btn"> <a class="colore-pulsante" href="../Html/IlRitornoDiSherlockHolmes.html"> Scopri di più </a></button>
+      </div>
+    </div>
+
   </main>
 
 <br>
