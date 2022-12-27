@@ -382,7 +382,7 @@ p{
     .nav div.main_list ul li a {
         text-align: center;
         width: 100%;
-        font-size: 3rem;
+        font-size: 1rem;
         padding: 20px;
     }
     .nav div.media_button {
@@ -619,6 +619,12 @@ p{
 .testobordato1 {
     line-height: 150%;
     text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+}
+
+
+.testobordato2{
+    line-height: 150%;
+    text-shadow: -2px 0 #10141b, 0 2px #10141b, 2px 0 #10141b, 0 -2px #10141b;
 }
 
 
