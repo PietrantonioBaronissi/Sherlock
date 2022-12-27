@@ -221,3 +221,11 @@ h1 {
   text-decoration: none !important;
   color: white !important;
 }
+
+.a {
+  color: white !important;
+}
+
+.breadcrumb {
+  margin-top: 10px;
+}
