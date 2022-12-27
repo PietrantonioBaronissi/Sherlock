@@ -42,6 +42,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.a1:hover a {
+    text-decoration: none !important;
+}
+
 /* Pietro formattazione della scritta copyright footer */
 
 .copyright {
@@ -604,6 +608,22 @@ p{
 		padding:2%;
 	}
 }
+
+
+
+.testobordato{
+    line-height: 150%;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+}
+
+.testobordato1 {
+    line-height: 150%;
+    text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+}
+
+
+
+
 
 /* PROVA NEBBIA */
 
