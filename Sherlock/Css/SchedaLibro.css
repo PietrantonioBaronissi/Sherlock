@@ -8,11 +8,11 @@
 }
 
 .nav-link {
-    color: white;
+    color: rgb(2, 0, 0);
 }
 
 .nav-link:hover {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .citazione {
