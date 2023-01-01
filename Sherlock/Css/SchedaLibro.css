@@ -3,8 +3,13 @@
     color: white;
 }
 
-.margine {
-    margin-bottom: 50px;
+.margine1 {
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.marginesopra {
+    margin-top: 3%;
 }
 
 .nav-link {
