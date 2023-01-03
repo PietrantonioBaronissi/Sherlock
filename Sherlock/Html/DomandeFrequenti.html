@@ -24,14 +24,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <link type="text/css" rel="stylesheet" href="../Css/Homepage.css">
-    <link type="text/css" rel="stylesheet" href="../Css/Cards.css">
+    <link type="text/css" rel="stylesheet" href="../Css/DomandeFrequenti.css">
+    <link type="text/css" rel="stylesheet" href="../Css/Film.css">
 
 
     <!-- richiamo icone social dal web -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    <title>Homepage</title>
+    <title>Domande Frequenti</title>
 </head>
 
 <body class="coloresfondo">
@@ -66,108 +67,98 @@
 
             <div class="container py-5 text-center center text-white">
 
-                <h1 class="testobordato display-5  provacentro">Benvenuto in Sherlock World</h1>
-                <p class="testobordato1 font-italic mb-0">Immergiti nel mondo del famigerato detective tra Libri, Film e
-                    SerieTv!</p>
+                <h1 class="testobordato display-5  provacentro">Domande Frequenti</h1>
+                <p class="testobordato1 font-italic mb-0">Rispondiamo a tutte le vostre domande</p>
 
             </div>
         </section>
-
-
-
-
     </header>
 
-    <!-- cards inizia qui -->
-    <div class="container header1 header2 header3 h1 container1 container-fluid1">
-        <div class="row">
-            <hr>
 
+     <!-- BREADCRUMB -->
+ <div class="container text-center breadcrumb">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a class="a" href="../Html/Homepage.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Domande Frequenti</li>
+      </ol>
+    </nav>
+  </div>
 
-            <div class="col-md-4">
+    <!-- BODY -->
+    <!-- ACCORDION -->
 
-                <div class="profile-card-2"><a href="Libri.html"><img src="../Immagini/2libri-card.jpg"
-                            class="img img-responsive"></a>
-                    <div class=" a1 profile-name"><a href="Libri.html">Libri</a></div>
-                    <div class="profile-username"></div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-
-                <div class="profile-card-2"><a href="Film.html"><img src="../Immagini/locandina.jpg"
-                            class="img img-responsive"></a>
-                    <div class=" a1 profile-name"><a href="Film.html">Film</a></div>
-                    <div class="profile-username"></div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-
-                <div class="profile-card-2"><a href="SerieTV.html"><img src="../Immagini/Sherlock.jpg"
-                            class="img img-responsive"></a>
-                    <div class=" a1 profile-name"><a href="SerieTV.html">Serie Tv</a></div>
-                    <div class="profile-username"></div>
-                </div>
-            </div>
+    <div class="container margin">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+        <!--Prima domanda-->
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Prima domanda
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
         </div>
-    </div>
-
-    </div>
-    </div>
-    </div>
-
-    <!-- cards finisce qui-->
-
-
-    <div class="container header2 container1">
-
-        <div class="row">
-            <hr>
-
-            <div class="col-6 ">
-
-                <img src="../Immagini/pipa.jpg" class="bg-cover" alt="Sherlock World">
-                <p class="testogrigio">Benedict Cumberbatch nei panni di Sherlock, nell'omonima serie TV di BBC One
-                    (2010-2017)</p>
-
-            </div>
-            <div class="col-6">
-                <h4 class="testorosso">"Eliminato l'impossibile, ciò che resta, per quanto improbabile sia, deve essere
-                    la verità"</h4><br>
-                <p class="testogrigio">Fuma la pipa e suona il violino. Bastano pochissimi dettagli per riconoscere, con
-                    un briciolo della capacità deduttiva che lo ha reso celebre, uno dei personaggi più iconici e
-                    riusciti della letteratura di tutti i tempi: Sherlock Holmes.
-
-                    Simbolo del giallo e del mistero, il detective di Baker Street è un vero e proprio colosso, che ha
-                    dato i contorni ad un intero genere letterario ed ha ispirato scrittori, personaggi, registi, generi
-                    letterari, film, fumetti e chi più ne ha più ne metta, per oltre un secolo, da quando ha fatto la
-                    sua prima comparsa nel celebre “Uno studio in Rosso”, pubblicato nel lontano 1887 a firma Sir Arthur
-                    Conan Doyle.
-                </p>
-            </div>
+        <!--Seconda domanda-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Seconda domanda
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
         </div>
-    </div>
+        <!--Terza domanda-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Terza domanda
+            </button>
+          </h2>
 
-    <div class="container header2 container1 ">
-
-        <div class="row ">
-            <hr>
-            <div class="col-2"></div>
-            <div class="col-8 col-md-12 center ">
-                <iframe class="schermo"
-                    src="https://www.google.com/maps/d/embed?mid=11hi6OwDoifyUI4kFsg7suBQm1t8&hl=en_US&ehbc=2E312F"
-                    width="800" height="600"></iframe>
-            </div>
-            <div class="col-2>"></div>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
         </div>
+        <!--Quarta domanda-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+               Quarta domanda
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        <!--Quinta domanda-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Quinta domanda
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+   
+
+      
     </div>
     </div>
 
-</body>
 
 
-<!-- FOOTER -->
+
+
+
+
+    <!-- FOOTER -->
 <div class="container">
 
     <footer class="col-12 format text-center text-white border">
@@ -183,10 +174,10 @@
                             "footerLink" formattazione dei link nel footer-->
                     <ul class="FooterLink list-unstyled mb-0">
                         <li class="margine">
-                            <a href="ChiSiamo.html" class="text-white">Chi siamo</a>
+                            <a href="#!" class="text-white">Chi siamo</a>
                         </li>
                         <li class="margine">
-                            <a href="DomandeFrequenti.html" class="text-white">Domande frequenti</a>
+                            <a href="#!" class="text-white">Domande frequenti</a>
                         </li>
 
                 </div>
@@ -195,10 +186,10 @@
 
                     <ul class="FooterLink list-unstyled mb-0">
                         <li class="margine">
-                            <a href="NoteLegali.html" class="text-white">Note legali</a>
+                            <a href="#!" class="text-white">Note legali</a>
                         </li>
                         <li class="margine">
-                            <a href="Privacy&Cookies.html" class="text-white">Privacy e cookies</a>
+                            <a href="#!" class="text-white">Privacy e cookies</a>
                         </li>
 
                     </ul>

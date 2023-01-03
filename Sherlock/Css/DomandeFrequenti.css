@@ -1,0 +1,30 @@
+.accordion-button {
+    background-color: #10141b;
+    color: white;
+    text-emphasis-color: white;
+}
+
+.accordion {
+    --bs-accordion-bg: #10141b;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #10141b;
+}
+.accordion-item {
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: white;
+}
+
+.accordion-button::after {
+    color: white;
+}
+
+.margin {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
