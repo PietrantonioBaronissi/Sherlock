@@ -170,7 +170,7 @@ margin-right: 115px;
       font-size: 22px;
     }
     .valigia {
-      padding-left: 70px;
+      padding-left: 5%;
     }
 
 h2 {
@@ -188,3 +188,10 @@ text-decoration: none;
 color: black;
 }
 
+.textwhite {
+  color:white
+}
+
+.marginefooterChiSiamo {
+  margin: 20% 0 0 0;
+}
