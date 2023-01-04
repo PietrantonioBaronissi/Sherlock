@@ -18,6 +18,9 @@
 }
 
 
+
+
+
 /* Pietro distanza link footer */
 .margine {
     padding-bottom: 30px;
@@ -352,6 +355,18 @@ p{
     .navTrigger {
         display: block;
     }
+
+    .nav1 {
+        line-height: 0 !important;
+    }
+
+    .container-fluid {
+        padding: 0% !important;
+    } 
+
+
+    
+    
     .nav div.logo {
         margin-left: 15px;
     }
@@ -365,25 +380,28 @@ p{
         display: none;
     }
     .nav div.main_list ul {
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
-        height: 100vh;
+        height: 10vh;
         right: 0;
         left: 0;
         bottom: 0;
         background-color: #10141b;
+       
         /*same background color of navbar*/
         background-position: center top;
     }
     .nav div.main_list ul li {
         width: 100%;
-        text-align: right;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px !important;
     }
     .nav div.main_list ul li a {
         text-align: center;
         width: 100%;
         font-size: 1rem;
-        padding: 20px;
+        
     }
     .nav div.media_button {
         display: block;
