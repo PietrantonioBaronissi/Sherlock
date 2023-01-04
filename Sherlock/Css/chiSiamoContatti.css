@@ -7,13 +7,9 @@
 
  
 
-/*Margine contatti*/ 
-.margineContatti {
-margin: 0 0 5% 0;
-}
 
 .abbassaMappa {
-  margin-top: 20%;
+ 
    margin-left: 0px;
    padding-left: 0px;
 }
@@ -120,9 +116,7 @@ margin-right: 115px;
     font-size: 20px;
   }
 
-  .allineamentocontatticontattaci {
-    margin-top: 100px;
-  }
+  
 
 
  
@@ -162,10 +156,7 @@ margin-right: 115px;
     .card-text {
       color: black;
     }
-    .breadcrumb {
-      font-size: x-large;
-      padding-top: 40px;
-    }
+   
    
     .valigia {
       padding-left: 5%;
