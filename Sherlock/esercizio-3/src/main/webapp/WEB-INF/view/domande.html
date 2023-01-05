@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="it" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- COLLEGAMENTO BOOTSTRAP E CSS -->
+    <link type="text/css" rel="stylesheet"
+        th:href="@{https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css}">
+        
+     <script th:src="@{https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js}"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script th:src="@{https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js}"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script th:src="@{https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js}"></script>
+
+    <script th:src="@{https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js}"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- Jquery needed -->
+    <script th:src="@{https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js}"></script>
+
+    <link type="text/css" rel="stylesheet" th:href="@{static/css/HomePage.css}">
+    <link type="text/css" rel="stylesheet" th:href="@{static/css/domande.css}">
+    <link type="text/css" rel="stylesheet" th:href="@{static/css/film.css}">
+
+
+    <!-- richiamo icone social dal web -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+    <title>Domande Frequenti</title>
+</head>
+
+<body class="coloresfondo">
+
+    <!-- HEADER -->
+    <header id="myHeader ">
+
+        <nav class="nav1 nav indexz">
+            <div class="container-fluid">
+                <div class="logo fixed-left">
+                    <a th:href="@{HomePage}"><img th:src="@{static/image/SherlockWorld.svg}" alt="" height="50px"></a>
+
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks navfont">
+                        <li><a th:href="@{HomePage}">Home</a></li>
+                        <li><a th:href="@{catalogo?tipologia=libri}">Libri</a></li>
+                        <li><a th:href="@{catalogo?tipologia=film}">Film</a></li>
+                        <li><a th:href="@{catalogo?tipologia=serieTv}">Serie TV</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+
+        <section class="home">
+
+            <div class="container py-5 text-center center text-white">
+
+                <h1 class="testobordato display-5  provacentro">Domande Frequenti</h1>
+                <p class="testobordato1 font-italic mb-0">Rispondiamo a tutte le vostre domande</p>
+
+            </div>
+        </section>
+    </header>
+
+
+     <!-- BREADCRUMB -->
+ <div class="container text-center breadcrumb">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a class="a" th:href="@{HomePage}">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Domande Frequenti</li>
+      </ol>
+    </nav>
+  </div>
+
+    <!-- BODY -->
+    <!-- ACCORDION -->
+
+    <div class="container margin">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+        <!--Prima domanda-->
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Posso prenotare un'opera presente nel sito?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">No, non é possibile prenotare un opera dal sito , ma sono tutte disponibili nella biblioteca fisica.</div>
+          </div>
+        </div>
+        <!--Seconda domanda-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Per quanto tempo posso prendere in prestito un libro?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">É possibile prendere in prestito un libro per 30 giorni.</div>
+          </div>
+        </div>
+        <!--Terza domanda-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Posso prorogare un prestito?
+            </button>
+          </h2>
+
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Puoi prorogare solo il prestito dei libri e solo se il libro non è stato prenotato nel frattempo da un altro utente.
+				Puoi richiedere la proroga nei 5 giorni precedenti la scadenza, scegliendo una tra queste modalità:
+				
+				presentandoti in Biblioteca
+				chiamando lo 0574 1837800 o scrivendo a sherlockWorld@gmail.com
+				con il servizio Prestito online.</div>
+          </div>
+        </div>
+        <!--Quarta domanda-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+               Non avete il libro che cerco. Potreste aiutarmi ad ottenerlo da un'altra biblioteca?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Sì, certo. Rivolgiti ad uno dei nostri bibliotecari che attiverà il prestito interbibliotecario. Quando il libro arriverà, ti contatteremo via mail o via telefono per venire a ritirarlo.</div>
+            </div>
+          </div>
+        <!--Quinta domanda-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Possono entrare gli animali?
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Sì, certo. Ricorda che sei tenuto ad utilizzare sempre il guinzaglio e a portare con te una museruola, a raccogliere le deiezioni in tutti gli spazi, sia all'interno che all'esterno.
+					Per motivi di sicurezza e igiene non puoi entrare con animali nella Sala Ragazzi e Bambini.</div>
+            </div>
+          </div>
+   
+
+      
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+<div class="container">
+
+    <footer class="col-12 format text-center text-white border">
+
+        <!-- Sezione dei Link -->
+        <div class="container ">
+
+            <div class="row">
+
+                <div class="col-12 col-md-4">
+
+                    <!-- "margine" distanzia i link l'uno dall'altro 
+                            "footerLink" formattazione dei link nel footer-->
+                    <ul class="FooterLink list-unstyled mb-0">
+                        <li class="margine">
+                            <a th:href="@{/chiSiamo}" class="text-white">Chi siamo</a>
+                        </li>
+                        <li class="margine">
+                            <a th:href="@{/domande}" class="text-white">Domande frequenti</a>
+                        </li>
+
+                </div>
+
+                <div class="col-12 col-md-4">
+
+                    <ul class="FooterLink list-unstyled mb-0">
+                        <li class="margine">
+                            <a th:href="@{/noteLegali}" class="text-white">Note legali</a>
+                        </li>
+                        <li class="margine">
+                            <a th:href="@{/privacy}" class="text-white">Privacy e cookies</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+
+                <!-- Logo-->
+                <div class="col-12 col-md-4">
+                    <a href="#" data-bs-toggle="backtotop" class="back-to-top"><img th:src="@{static/image/SherlockWorld.svg}"
+                             height="80px" alt="..."></a>
+                </div>
+            </div>
+        </div>
+
+        <hr><!-- hr fa la linea in mezzo -->
+
+        <div class="container">
+            <span class="row">
+
+                <!-- "copyright" formattazione scritta del copyright footer-->
+                <div class="col-12 col-md-6 copyright">
+                    <p><b>© SHERLOCK WORLD DIGITAL 2022</b></p>
+                    <p>Appassionato di Sherlock Holmes? Sherlock World è il ritrovo ufficiale del celebre detective.
+                    </p>
+                    <p>Offerto da Sherlock World Digital, una partnership tra Warner Bros. e la Biblioteca
+                        Accademica di Trevi.
+                        Abbiamo il compito di farti immergere in questo fantastico mondo di misteri.
+                    </p>
+                    <br>
+                    <p>TM & © WBEI. SHERLOCK WORLD Editoria e diritti teatrali © Sir Arthur Conan Doyle.</p>
+                    <a class="text-white" href="https://mdbootstrap.com/"></a>
+                </div>
+
+
+                <!-- Sezione Social -->
+                <span class="col-12 col-md-6">
+
+                    <!-- Youtube -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/" role="button"><i
+                            class="fab fa-youtube"></i></a>
+
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"><i
+                            class="fab fa-instagram"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/home?lang=it"
+                        role="button"><i class="fab fa-twitter"></i></a>
+
+                </span>
+            </span>
+        </div>
+</div>
+</footer>
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+
+    $(document).ready(function () {
+        $('.navTrigger').on('click', function () {
+            $(this).toggleClass('active');
+            console.log("Clicked menu");
+            $("#mainListDiv").toggleClass("show_list");
+            $("#mainListDiv").fadeIn();
+
+        });
+    });
+</script>
+
+
+
+</body>
+
+</html>

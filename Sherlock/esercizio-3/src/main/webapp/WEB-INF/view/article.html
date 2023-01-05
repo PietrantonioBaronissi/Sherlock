@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="it" class="h-100">
+	<head th:replace="../template/base-template :: headFragment"></head>
+	<script th:src="@{static/javascript/article_script.js}"></script>
+	<body class="d-flex flex-column h-100">
+		<div class="container">
+			<nav th:replace="../template/base-template :: navFragment"></nav>
+			<div th:replace="../template/base-template :: headerFragment"></div>	
+			<div class="row mt-4">
+				<div class="col-12 text-center">
+					<h4 th:text="#{label.createnewarticle}"></h4>
+				</div>
+			</div>
+			<div class="row justify-content-center mt-4">
+				<div class="col-5">
+					<hr>
+					<h5 th:text="#{label.standardform}"></h5>
+					<div th:if="${formError}" th:text="#{error.fielderrors}" 
+						class="alert alert-danger mt-4 text-center" role="alert"></div>
+					<form action="article/savestandard" method="POST">
+						<div class="row">
+							<div class="col-12">
+								<label for="artDescription" th:text="#{label.description} + ':'"></label>
+								<input type="text" id="artDescription" name="artDescription" class="form-control" 
+									required="required">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<label for="artPrice" th:text="#{label.price} + ':'"></label>
+								<input type="number" step="any" id="artPrice" name="artPrice" class="form-control" 
+									required="required">
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col-12 text-center">
+								<input type="submit" th:value="#{btn.register}" class="btn btn-primary small-button">
+								<a th:href="@{/}" class="btn btn-secondary small-button" th:text="#{btn.back}"></a>
+							</div>
+						</div>
+					</form>
+					<hr>
+					<h5 th:text="#{label.thymeleafform}"></h5>
+					<form method="POST" th:object="${article}">
+						<div class="row">
+							<div class="col-12">
+								<label for="articleDescription" th:text="#{label.description} + ':'"></label>
+								<input type="text" id="articleDescription" th:field="*{description}" 
+									class="form-control" required="required">
+								<p th:if="${#fields.hasErrors('description')}" th:errors="*{description}" 
+									class="text-danger"></p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<label for="articlePrice" th:text="#{label.price} + ':'"></label>
+								<input type="number" step="any" id="articlePrice" th:field="*{price}" class="form-control" 
+									required="required">
+								<p th:if="${#fields.hasErrors('price')}" th:errors="*{price}" class="text-danger"></p>
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col-12 text-center">
+								<input type="submit" th:value="#{btn.register}" class="btn btn-primary small-button">
+								<a th:href="@{/}" class="btn btn-secondary small-button" th:text="#{btn.back}"></a>
+							</div>
+						</div>
+					</form>
+					<hr>
+					<h5 th:text="#{label.clientform}"></h5>
+					<form id="clientForm">
+						<div class="row">
+							<div class="col-12">
+								<label for="aDescription" th:text="#{label.description} + ':'"></label>
+								<input type="text" id="aDescription" class="form-control" required="required">
+								<p id="descrError" th:text="#{error.charnotallowed}" class="text-danger" 
+									style="display:none;"></p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<label for="aPrice" th:text="#{label.price} + ':'"></label>
+								<input type="number" step="any" id="aPrice" class="form-control" required="required">
+								<p id="priceError" th:text="#{error.invalidamount}" class="text-danger" 
+									style="display:none;"></p>
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col-12 text-center">
+								<input type="submit" class="btn btn-primary small-button" th:value="#{btn.register}">
+								<a th:href="@{/}" class="btn btn-secondary small-button" th:text="#{btn.back}"></a>
+							</div>
+						</div>
+					</form>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</body>
+	<footer th:replace="../template/base-template :: footerFragment"></footer>
+</html>

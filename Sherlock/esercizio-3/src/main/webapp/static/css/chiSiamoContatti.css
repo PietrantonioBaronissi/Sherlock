@@ -1,0 +1,199 @@
+/*css form contatti*/
+
+/*Colori scritte*/
+ li, label {
+  color:white
+ }
+
+ .testoCentro{
+ 	text-align:center;
+ 	color:red;
+ }
+
+/*Margine contatti*/ 
+.margineContatti {
+margin: 0 0 5% 0;
+}
+
+.abbassaMappa {
+  margin-top: 20%;
+   margin-left: 0px;
+   padding-left: 0px;
+}
+
+.azzeraPadding {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+
+
+.misuraImmagini{
+  width: 10%;
+  height: 10%;
+}
+
+.margineCard {
+  margin-bottom: 10%;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.marginecolonna1 {
+  margin-left: 50px;
+ 
+}
+
+.marginecolonna2 {
+  margin-left: 600px;
+ 
+}
+
+/* css della pagina chi siamo*/
+div.col-6 {
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.card-group {
+margin-bottom: 50px;
+}
+ol {
+margin-left: 115px;
+}
+#marginipag {
+margin-left: 115px;
+margin-right: 115px;
+}
+
+.margineFooter {
+  margin-top: 10%;
+}
+/* fine chi siamo*/
+
+
+/* margini cards novità*/
+#orizzontale {
+  margin-left: 10% ; 
+  margin-right: 20%;
+
+  }
+
+ 
+
+  .paddingfooter {
+    padding-top: 30px;
+  }
+
+  .marginfooter {
+    margin-top: 20px;
+  }
+
+  .marginfooternovità {
+    margin-top: 200px;
+  }
+
+ 
+  .contatti {
+    font-size: 20px;
+  }
+
+  .allineamentocontatticontattaci {
+    margin-top: 100px;
+  }
+
+
+ 
+    .scrittaofferte {
+        font-size: 45px;
+    padding-left: 35px;
+    }
+    
+    .marginebottoni {
+        padding-top: 50px;
+    }
+    
+    .scopridipiù {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    
+    .distanzacontainer {
+        padding-top: 40px;
+    }
+   
+    .scopridipiù {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #72bb53;
+    }
+    .btn-primary {
+    background-color: #72bb53;  
+    }
+    .aereo {
+        
+        margin-top: 20px;
+       margin-left: 140px;
+    }
+    .card-text {
+      color: black;
+    }
+    .breadcrumb {
+      margin-top:10px;
+    }
+    .chisiamo {
+      font-size: 22px;
+    }
+    .valigia {
+      padding-left: 5%;
+    }
+
+h2 {
+  text-align: center;
+
+}
+.card-text{
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+text-decoration: none;
+color: black;
+}
+
+.textwhite {
+  color:white
+}
+
+.marginefooterChiSiamo {
+  margin: 20% 0 0 0;
+}

@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+.paragrafo {
+    text-align: left;
+    color: white;
+}
+
+.margine1 {
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.marginesopra {
+    margin-top: 3%;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.citazione {
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.colore-breadcrumb {
+    color: white !important;
+}
+
+.breadcrumb {
+    margin-top: 10px;
+}
