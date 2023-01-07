@@ -205,7 +205,8 @@ p{
             font-size: 50%;
         }
     }
-
+    
+    
     @media screen and (min-width: 600px )and (max-width: 850px) {
 	
 
@@ -391,6 +392,9 @@ p{
         padding: 0% !important;
     } 
 
+.nav div.logo {
+        padding-left: 0rem !important;
+    }
 
 
 
